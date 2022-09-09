@@ -1,9 +1,9 @@
 import React from 'react'
 
 const ImageRey = (props) => {
-    const {source}=props.data;
+    const {source,customStyle}=props.data;
     return (
-      <img src={source} alt="Avtar" />
+      <img src={source} alt="Avtar" style={customStyle} />
     )
 }
 
