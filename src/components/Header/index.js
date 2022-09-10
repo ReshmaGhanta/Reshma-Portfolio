@@ -1,9 +1,10 @@
 import React, { useEffect } from 'react';
 import {Link} from "react-router-dom";
 import { useState } from 'react';
-import { NavbarContainer, NavbarFixed, Navbar, Nav,LogoStyle, ListStyle, MenuItem} from '../../styles/HeaderStyle';
+import { NavbarContainer, NavbarFixed, Navbar, Nav,LogoStyle, ListStyle, MenuItem, MenuItemFixed} from '../../styles/ComponentsStyle/HeaderStyle';
 import logo from '../../assets/Logo 2.png';
 import ImageRey from '../ReusableComponents/ImageRey';
+
 
 const Header = () => {
 const[fixNavbar,setFixNavbar]=useState(false)
@@ -28,11 +29,11 @@ useEffect(()=>{
         <nav style={Nav}>
           {/*      <ImageRey data={{source:logo,  customStyle:{LogoStyle}}}></ImageRey>  */}    
         <ul>
-            <li style={ListStyle}><Link to="/" style={MenuItem}>Home</Link></li>
-            <li style={ListStyle}><Link to="/education" style={MenuItem}>Education</Link></li>
-            <li style={ListStyle}><Link to="/skills" style={MenuItem}>Skills</Link> </li>
-            <li style={ListStyle}><Link to="/experience" style={MenuItem}>Experience</Link></li>
-            <li style={ListStyle}><Link to="/contact" style={MenuItem}>Contact</Link> </li>
+            <li style={ListStyle}><Link to="/home" style={fixNavbar ? MenuItemFixed : MenuItem}>Home</Link></li>
+            <li style={ListStyle}><Link to="/education" style={fixNavbar ? MenuItemFixed : MenuItem}>Education</Link></li>
+            <li style={ListStyle}><Link to="/skills" style={fixNavbar ? MenuItemFixed : MenuItem}>Skills</Link> </li>
+            <li style={ListStyle}><Link to="/experience" style={fixNavbar ? MenuItemFixed : MenuItem}>Experience</Link></li>
+            <li style={ListStyle}><Link to="/contact" style={fixNavbar ? MenuItemFixed : MenuItem}>Contact</Link> </li>
         </ul>
         </nav>
         </div>

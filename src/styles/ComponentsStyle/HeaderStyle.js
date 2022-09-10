@@ -5,7 +5,6 @@ export const NavbarContainer = {
     alignItems:"center",
     height:"80px",
     width:"100%",
-    background: "grey"
 }
 
 export const Navbar={
@@ -28,7 +27,7 @@ export const NavbarFixed={
     fontSize:"1.2rem",
     position:"sticky",
     top:"0",
-    backgroundColor: "green"
+    backgroundColor: "#fff",
 }
 
 export const LogoStyle={
@@ -42,10 +41,9 @@ export const LogoStyle={
 export const Nav={
     display:"flex",
     alignItems:"center",
-    justifyContent:"space-between",
+    justifyContent:"end",
     paddingTop:"40px",
-    paddingLeft:"10%",
-    paddingRight:"10%"
+    paddingRight:"12%" 
 }
 
 export const ListStyle={
@@ -58,4 +56,10 @@ export const ListStyle={
 export const MenuItem={
     textDecoration:"none",
     color:"white",
+}
+
+export const MenuItemFixed={
+    textDecoration:"none",
+    color:"black",
+   
 }

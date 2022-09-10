@@ -1,8 +1,8 @@
-import footerBG from '../assets/footerBG.jpeg'
+import footerBG from '../../assets/footerBG.jpeg';
 
 export const FooterBackground = {
     width: "100%",
-    height: "30vh",
+    height: "35vh",
     backgroundColor: "black",
     backgroundImage: `url(${footerBG})`,
     backgroundRepeat: "no-repeat",
@@ -10,7 +10,7 @@ export const FooterBackground = {
     backgroundPosition: "center",
     padding:"0",
     margin:"0"
-  };
+  }
 
   export const FullnameStyle = {
     color: "white",
@@ -21,9 +21,8 @@ export const FooterBackground = {
     alignItems:"center",
     justifyContent:"center",
     paddingTop:"10px",
-    margin:"0"
-  };
-
+    margin:"30px 0px 0px 0px"
+  }
   export const SocialmediaStyle={
     color:"white",
     display:"flex",
@@ -41,7 +40,7 @@ export const FooterBackground = {
     width: "50%",
     background: "lightgrey",
     marginBottom: "30px",
- } 
+ }
 
   export const CopyrightStyle={
     color: "white",
