@@ -1,10 +1,12 @@
+import HomeBG from '../../assets/background_image.jpg';
 
 export const NavbarContainer = {
     display: "flex",
-    justifyContent: "center",
-    alignItems:"center",
+    justifyContent: "right",
+    alignItems:"right",
     height:"80px",
     width:"100%",
+  
 }
 
 export const Navbar={
@@ -16,6 +18,7 @@ export const Navbar={
     fontSize:"1.2rem",
     position:"sticky",
     top:"0",
+  //  backgroundColor:"black",
 }
 
 export const NavbarFixed={
@@ -55,11 +58,16 @@ export const ListStyle={
 
 export const MenuItem={
     textDecoration:"none",
-    color:"white",
+    color:"black",
 }
 
 export const MenuItemFixed={
     textDecoration:"none",
-    color:"black",
-   
+    color:"black", 
 }
+
+export const logoStyle = {
+    width: "50px",
+    height: "50px",
+    padding:"0px 0px 0px 100px"
+  };

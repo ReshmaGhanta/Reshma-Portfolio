@@ -5,7 +5,7 @@ import { ExperienceBackground,MenuItemStyle } from '../../styles/viewsStyle/Expe
 
 const Experience = () => {
     return (
-       <Container style={ExperienceBackground}>
+       <Container style={ExperienceBackground} id="experience">
           <><TextRey data={{text:"Experience",style:MenuItemStyle}}></TextRey></>
        </Container>
     )

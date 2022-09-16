@@ -1,18 +1,30 @@
 import CustomRoutes from "./routes/CustomRoutes"
-import { Container } from "react-bootstrap";
-import {Nav} from './nav';
-//import NavProvider from "./context/NavContext";
-import { CustomNavContext } from './context/NavContext';
+import React from "react";
+import { Container,Row } from "react-bootstrap";
 import Home from "./views/Home";
-import Contact from "./views/Contact";
 import Education from "./views/Education";
-import Footer from "./components/Footer"
-import Main from "./views/Main";
+import Skills from "./views/Skills";
+import Experience from "./views/Experience";
+import Contact from "./views/Contact";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import "./app.css"
+
+
+import {MainContainer, MainBackgroundImage} from "./styles/viewsStyle/MainStyle"
 function App() {
   return (
 
-    <CustomRoutes/>
- 
+    <Container style={MainContainer} >
+      <Header></Header> 
+      <Home></Home> 
+    <Row> <Education></Education></Row>
+    <Row> <Skills></Skills></Row>
+    <Row> <Experience></Experience></Row>
+    <Row>  <Contact></Contact></Row>
+    <Row>  <Footer></Footer></Row>  
+
+   </Container>
   );
 }
 

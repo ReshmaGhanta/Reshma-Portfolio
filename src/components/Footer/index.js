@@ -9,19 +9,30 @@ import {FooterBackground,FullnameStyle,SocialmediaStyle,LineStyle,CopyrightStyle
 const Footer = () => {
     return (
         <Container style={FooterBackground}>
-            <><TextRey data={{text:"Reshma Ghanta",style:FullnameStyle}}></TextRey></>
+           {/*  <><TextRey data={{text:"Reshma Ghanta",style:FullnameStyle}}></TextRey></> */}
             <div style={SocialmediaStyle}>
-                <FontAwesomeIcon icon={faFacebook} size="2x" fixedWidth></FontAwesomeIcon>
-                <FontAwesomeIcon icon={faGithub} size="2x" fixedWidth></FontAwesomeIcon>
-                <FontAwesomeIcon icon={faInstagram} size="2x" fixedWidth></FontAwesomeIcon>
-                <FontAwesomeIcon icon={faLinkedin} size="2x" fixedWidth></FontAwesomeIcon>
+                <FontAwesomeIcon icon={faFacebook} size="3x" fixedWidth onClick={openFacebook}></FontAwesomeIcon>
+                <FontAwesomeIcon icon={faGithub} size="3x" fixedWidth onClick={openGithub}></FontAwesomeIcon>
+                <FontAwesomeIcon icon={faInstagram} size="3x" fixedWidth onClick={openInstagram}></FontAwesomeIcon>
+                <FontAwesomeIcon icon={faLinkedin} size="3x" fixedWidth onClick={openLinkedin}></FontAwesomeIcon>
             </div>
             <> <hr style={LineStyle}/>  </>  
-            <><TextRey data={{text:"Built by Reshma Ghanta Ⓒ 2022",style:CopyrightStyle}}></TextRey></>
-       
+            <><TextRey data={{text:"Built by Reshma Ghanta Ⓒ 2022",style:CopyrightStyle}}></TextRey></>       
         </Container>
     )
 }
 
+function openFacebook(){
+    window.open("https://www.facebook.com/Ghanta9999");
+}
+function openGithub(){
+    window.open("https://github.com/ReshmaGhanta");
+}
+function openInstagram(){
+    window.open("https://www.instagram.com/reshma_chowdari/");
+}
+function openLinkedin(){
+    window.open("https://www.linkedin.com/in/rghanta2/");
+}
 export default Footer
 

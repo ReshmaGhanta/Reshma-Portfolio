@@ -1,8 +1,7 @@
 export const ContactBackground={
     width: "100%",
-    height: "65vh",
-    backgroundColor: "#fff",
-    backgroundRepeat: "no-repeat",
+    height: "100%",
+   /*  backgroundColor: "#fff", */
     backgroundSize: "cover",
     backgroundPosition: "center",
 }
@@ -10,17 +9,16 @@ export const ContactBackground={
 export const MenuItemStyle={
     display:"flex",
     color: "black",
-    fontFamily:"Spartan, sans-serif",
     alignItems:"center",
     justifyContent:"center",
     fontSize:"3em",
     marginBottom:"20px",
+    paddingTop:"8%"
 }
 
 export const TextStyle={
     display:"flex",
     color: "black",
-    fontFamily:"Spartan, sans-serif",
     alignItems:"center",
     justifyContent:"center",
     marginLeft:"23%",
@@ -36,14 +34,14 @@ export const EmailButton={
     justifyContent:"center",
     alignItems:"center",
     color: "black",
-    fontFamily:"Spartan, sans-serif",
     background: "transparent",
     fontSize: "1.25em",
-    padding: "10px 50px",
+    padding: "10px 50px ",
     letterSpacing: "1.5px",
     borderRadius: "25px",
     borderColor:"black",
     cursor: "pointer",
+    fontFamily:"Montserrat",
 }
 
 export const ContactContainer={

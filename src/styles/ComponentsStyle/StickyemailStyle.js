@@ -1,6 +1,5 @@
 export const verticalText={
     writingMode: "vertical-rl",
-    fontFamily:"Spartan, sans-serif",
     color:"#fff",
     float: "right",
     paddingRight:"5%",
@@ -13,7 +12,6 @@ export const LineStyle={
         display: "block",
         width: "1px",
         height: "90px",
-        width:"1px",
         margin: "0px auto",
         backgroundColor: "#fff",
         justifyContent:"end",

@@ -5,7 +5,7 @@ import { SkillBackground,MenuItemStyle } from '../../styles/viewsStyle/SkillsSty
 
 const Skills = () => {
     return (
-        <Container style={SkillBackground}>
+        <Container style={SkillBackground} id="skills">
                     <><TextRey data={{text:"Skills",style:MenuItemStyle}}></TextRey></>
        </Container>
     )
