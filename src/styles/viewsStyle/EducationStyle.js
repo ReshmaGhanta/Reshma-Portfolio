@@ -1,11 +1,7 @@
 export const EducationBackground={
     width: "100%",
-    height: "100%",
-  //  backgroundColor: "#fff",
-  //  backgroundRepeat: "no-repeat",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-
+    height: "100vh",
+    paddingTop:"3%"
 }
 
 export const MenuItemStyle={
@@ -14,17 +10,55 @@ export const MenuItemStyle={
     alignItems:"center",
     justifyContent:"center",
     fontSize:"3em",
-    marginBottom:"20px",
-    paddingTop:"8%"
+    marginBottom:"50px",
+    paddingTop:"6%"
 }
 
-export const TextStyle={
+export const MasonLogoStyle={
+    width: "80px",
+    height: "80px",
+    alignItems:"center",
+    justifyContent:"center",
+}
+
+export const PVPLogoStyle={
+    width: "80px",
+    height: "80px",
+    alignItems:"center",
+    justifyContent:"center",
+}
+
+export const YearStyle={
+  padding:"0px",
+  margin:"0px",
+  display:"flex",
+}
+
+export const DegreeStyle={
+    padding:"0px",
+    margin:"0px",
+    fontSize: "1.5em",
+    fontWeight:"bold",
     display:"flex",
-    margin: "0px 100px 50px 100px",
-    alignItems:"left",
-    justifyContent:"left",
-    marginLeft:"15%",
-    marginRight:"15%",
-    lineHeight:"1.6",
-    fontSize: "1.25em",
+}
+
+export const UniversityStyle={
+    display:"flex",
+    fontSize: "1.2em",
+    fontWeight:"500",
+}
+
+export const rowStyle={
+    paddingBottom:"3%",
+    paddingLeft:"50px"
+}
+
+export const colStyle={
+    textAlign:"right",
+   paddingRight:"50px"
+}
+
+export const DescriptionStyle={
+    fontSize:"0.9em",
+    lineHeight:"2"
 }

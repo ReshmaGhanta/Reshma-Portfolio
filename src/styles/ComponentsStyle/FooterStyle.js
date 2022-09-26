@@ -1,13 +1,8 @@
-import footerBG from '../../assets/footerBG.jpeg';
+
 
 export const FooterBackground = {
     width: "100%",
     height: "100%",
-   /*  backgroundColor: "black",
-    backgroundImage: `url(${footerBG})`, */
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
     paddingTop:"10%",
     margin:"0"
   }
@@ -29,6 +24,7 @@ export const FooterBackground = {
     justifyContent:"center", 
     verticalAlign:"middle",
     margin:"0",
+    cursor: "pointer",
   }
 
  export const LineStyle={
@@ -36,7 +32,7 @@ export const FooterBackground = {
     top: "20px",
     border: "none",
     height: "0.25px",
-    width: "50%",
+    width: "75%",
     background: "black",
     marginBottom: "30px",
  }

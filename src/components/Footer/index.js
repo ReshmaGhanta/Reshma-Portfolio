@@ -8,7 +8,7 @@ import {FooterBackground,FullnameStyle,SocialmediaStyle,LineStyle,CopyrightStyle
 
 const Footer = () => {
     return (
-        <Container style={FooterBackground}>
+        <>
            {/*  <><TextRey data={{text:"Reshma Ghanta",style:FullnameStyle}}></TextRey></> */}
             <div style={SocialmediaStyle}>
                 <FontAwesomeIcon icon={faFacebook} size="3x" fixedWidth onClick={openFacebook}></FontAwesomeIcon>
@@ -18,7 +18,7 @@ const Footer = () => {
             </div>
             <> <hr style={LineStyle}/>  </>  
             <><TextRey data={{text:"Built by Reshma Ghanta Ⓒ 2022",style:CopyrightStyle}}></TextRey></>       
-        </Container>
+        </>
     )
 }
 

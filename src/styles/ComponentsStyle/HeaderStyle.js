@@ -5,8 +5,7 @@ export const NavbarContainer = {
     justifyContent: "right",
     alignItems:"right",
     height:"80px",
-    width:"100%",
-  
+    width:"100%",  
 }
 
 export const Navbar={
@@ -18,6 +17,7 @@ export const Navbar={
     fontSize:"1.2rem",
     position:"sticky",
     top:"0",
+    zIndex:"999"
   //  backgroundColor:"black",
 }
 
@@ -31,14 +31,7 @@ export const NavbarFixed={
     position:"sticky",
     top:"0",
     backgroundColor: "#fff",
-}
-
-export const LogoStyle={
-    width: "10%",
-    height: "50%",
-    padding:"10px",
-    color:"white"
-
+    zIndex:"999"
 }
 
 export const Nav={
@@ -69,5 +62,7 @@ export const MenuItemFixed={
 export const logoStyle = {
     width: "50px",
     height: "50px",
-    padding:"0px 0px 0px 100px"
+    padding:"0px 0px 0px 100px",
+    color:"black",
+    zIndex:"999"
   };

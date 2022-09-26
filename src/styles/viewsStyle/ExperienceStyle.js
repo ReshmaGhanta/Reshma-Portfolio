@@ -1,8 +1,6 @@
 export const ExperienceBackground={
     width: "100%",
-    height: "100%",
-   // backgroundColor: "#fff",
-  //  backgroundRepeat: "no-repeat",
+    height: "100vh",
     backgroundSize: "cover",
     backgroundPosition: "center",
 }
@@ -13,5 +11,5 @@ export const MenuItemStyle={
     justifyContent:"center",
     fontSize:"3em",
     marginBottom:"20px",
-    paddingTop:"8%"
+    paddingTop:"10%"
 }

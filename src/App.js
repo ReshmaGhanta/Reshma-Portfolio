@@ -1,4 +1,3 @@
-import CustomRoutes from "./routes/CustomRoutes"
 import React from "react";
 import { Container,Row } from "react-bootstrap";
 import Home from "./views/Home";
@@ -14,17 +13,15 @@ import "./app.css"
 import {MainContainer, MainBackgroundImage} from "./styles/viewsStyle/MainStyle"
 function App() {
   return (
-
-    <Container style={MainContainer} >
-      <Header></Header> 
-      <Home></Home> 
-    <Row> <Education></Education></Row>
-    <Row> <Skills></Skills></Row>
-    <Row> <Experience></Experience></Row>
-    <Row>  <Contact></Contact></Row>
-    <Row>  <Footer></Footer></Row>  
-
-   </Container>
+    <div style={MainContainer} >
+        <Header/> 
+        <Home/>
+        <Education/>
+        <Skills/>
+        <Experience/>
+        <Contact/>
+       {/*  <Footer/>  */}
+   </div>
   );
 }
 

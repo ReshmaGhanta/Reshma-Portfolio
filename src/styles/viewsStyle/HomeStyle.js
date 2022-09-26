@@ -46,7 +46,7 @@ export const AboutStyle={
     margin: "0px 0px 50px 200px",
     alignItems:"left",
     justifyContent:"left",
-    lineHeight:"2",
+    lineHeight:"1.5",
     fontSize: "1.25em",
 
 }
@@ -58,7 +58,6 @@ export const ResumeButton={
     color: "black",
     background: "transparent",
     margin: "30px 0px 0px 300px" ,
-   // fontWeight: "14",
     fontSize: "1em",
     padding: "10px 50px",
     letterSpacing: "1.5px",
@@ -68,12 +67,9 @@ export const ResumeButton={
     fontFamily:"Montserrat",
 }
 
-export const ResumeButtonHover={
-    fontFamily:"Montserrat",
-}
 
-export const StickyEmailStyle={
-    display:"flex",
-    justifyContent:"center",
-    alignItems:"center",    
-}
+// export const StickyEmailStyle={
+//     display:"flex",
+//     justifyContent:"flex-end",
+//     alignItems:"flex-end",    
+// }

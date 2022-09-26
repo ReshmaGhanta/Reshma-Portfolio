@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import {BrowserRouter as Router} from "react-router-dom";
-import {Link} from 'react-scroll';
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { useState } from 'react';
 import { NavbarContainer, NavbarFixed, Navbar, Nav,logoStyle, ListStyle, MenuItem, MenuItemFixed} from '../../styles/ComponentsStyle/HeaderStyle';
@@ -25,9 +24,8 @@ useEffect(()=>{
 
     return (
        <Router>
- 
        <div style={fixNavbar ? NavbarFixed : Navbar }>
-       <ImageRey data={{ source: logo, avatar: "Avatar", customStyle:logoStyle}}></ImageRey>
+        <div> <ImageRey data={{ source: logo, avatar: "Avatar", customStyle:logoStyle}}></ImageRey> </div>
         <div style={NavbarContainer}>
         <nav style={Nav}> 
         <ul>

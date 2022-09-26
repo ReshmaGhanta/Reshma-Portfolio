@@ -1,12 +1,31 @@
-import React from 'react'
+import React,{useState, useEffect} from 'react'
 import TextRey from '../ReusableComponents/TextRey'
-import { Container } from "react-bootstrap";
-import { verticalText,LineStyle } from '../../styles/ComponentsStyle/StickyemailStyle';
 
-console.log(verticalText)
+import { verticalText,verticalTextFixed } from '../../styles/ComponentsStyle/StickyemailStyle';
+
+//console.log(verticalText)
 const StickyEmail = () => {
+  /* const[fixEmail,setFixEmail]=useState(false)
+  
+  const changeBackground=()=>{
+    console.log(window.scrollY)
+    if(window.scrollY>=360)
+    {
+        setFixEmail(true);
+    }else{
+        setFixEmail(false);
+    }
+}  
+
+useEffect(()=>{
+    window.addEventListener('scroll',changeBackground)
+})  */
   return (
-            <TextRey data={{text:"reshma.ghanta@gmail.com __________________", style:verticalText}}></TextRey>         
+       //  <div style={fixEmail ? verticalTextFixed : verticalText }> 
+         <div>
+
+         <TextRey data={{text:"reshma.ghanta@gmail.com ______________________", style:verticalText}}></TextRey>      
+        </div>    
   )
 }
 

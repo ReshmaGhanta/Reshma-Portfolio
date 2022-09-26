@@ -9,16 +9,20 @@ import {HomeBackground,WelcomeStyle, TitleStyle,JobTitleStyle,AboutStyle,ResumeB
 const Home = () => {
 
     return (
-       <>
+     /*   <> */
         <Container style={HomeBackground} id="home" >
                     <><TextRey data={{text:"Hi, my name is",style:WelcomeStyle}}></TextRey></>
                     <><h1 style={TitleStyle}>Reshma Ghanta.</h1></>
+                   
                     <><TextRey data={{text:"I am a Full Stack Developer",style:JobTitleStyle}}></TextRey></>
-                    <><TextRey data={{text:"I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at Upstatement. ",style:AboutStyle}}></TextRey> </>
+                   
+                    <><TextRey data={{text:"I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Experienced in building intuitive and interactive progressive full stack applications.",style:AboutStyle}}></TextRey> </>
                     <><ButtonRey data={{label:"Resume",customStyle:ResumeButton ,onClick:openResume}}></ButtonRey> </>
-                    {/* <StickyEmail style={StickyEmailStyle}></StickyEmail>    */}
+                 
+                  
         </Container>
-        </>
+       /*  <> <StickyEmail></StickyEmail>  </>
+        </> */
     )
 }
 
