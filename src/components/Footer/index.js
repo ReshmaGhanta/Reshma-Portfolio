@@ -17,7 +17,7 @@ const Footer = () => {
                 <FontAwesomeIcon icon={faLinkedin} size="3x" fixedWidth onClick={openLinkedin}></FontAwesomeIcon>
             </div>
             <> <hr style={LineStyle}/>  </>  
-            <><TextRey data={{text:"Built by Reshma Ghanta Ⓒ 2022",style:CopyrightStyle}}></TextRey></>       
+            <><TextRey data={{text:"Designed & Built by Reshma Ghanta Ⓒ 2022",style:CopyrightStyle}}></TextRey></>       
         </>
     )
 }

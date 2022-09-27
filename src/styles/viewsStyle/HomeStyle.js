@@ -1,13 +1,8 @@
 
-import HomeBG from '../../assets/background_image.jpg';
 
 export const HomeBackground={
     width: "100%",
-    height: "80vh",
-  //  backgroundImage: `url(${HomeBG})`,
-   // backgroundRepeat: "no-repeat",
-   // backgroundSize: "cover",
-  //  backgroundPosition: "center",   
+    height: "100vh", 
     padding:"0",
     margin:"0",
 }
@@ -17,7 +12,7 @@ export const WelcomeStyle={
     color: "black",
     fontWeight:'200',
     marginLeft: "200px",
-    marginTop:"100px",
+    marginTop:"150px",
     fontSize:"1em",
     marginBottom:"0px"
 }
