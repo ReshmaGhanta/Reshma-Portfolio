@@ -28,14 +28,6 @@ export const TenureStyle={
     fontWeight:"500",
 }
 
-export const TextStyle={
-    display:"flex",
-    fontSize: "1.2em",
-    fontWeight:"500",
-    padding:"0",
-    margin:"0"
-}
-
 export const rowStyle={
    
     paddingTop:"2%"
@@ -43,10 +35,12 @@ export const rowStyle={
 
 export const colOneStyle={
     textAlign:"right",
+    paddingRight:"50px"
 }
 
 export const colTwoStyle={
-    paddingLeft:"75px",
+     borderLeft:"0.5px solid gray",
+     paddingLeft:"50px"
 }
 
 export const CompanyStyle={
@@ -68,8 +62,3 @@ export const DescriptionStyle={
   
 }
 
-export const vrStyle={
-    height:"200px",
-    color:"black",
-    borderLeft: "5px"
-}

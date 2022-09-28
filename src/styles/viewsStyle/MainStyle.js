@@ -1,4 +1,3 @@
-import HomeBG from '../../assets/background_image.jpg';
 
 export const MainContainer={
 	height: "auto",

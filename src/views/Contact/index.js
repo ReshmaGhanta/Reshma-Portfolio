@@ -3,7 +3,6 @@ import { Container,Row} from "react-bootstrap";
 import TextRey from '../../components/ReusableComponents/TextRey';
 import ButtonRey from '../../components/ReusableComponents/ButtonRey';
 import { ContactBackground,MenuItemStyle,TextStyle ,EmailButton,ContactContainer} from '../../styles/viewsStyle/ContactStyle';
-//import { Link } from 'react-router-dom';
 import Footer from "../../components/Footer"
 
 const Contact = () => {

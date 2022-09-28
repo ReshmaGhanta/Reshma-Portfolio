@@ -1,10 +1,10 @@
 import React from 'react'
-import StickyEmail from '../../components/Stickyemail'
+//import StickyEmail from '../../components/Stickyemail'
 import TextRey from '../../components/ReusableComponents/TextRey'
 import ButtonRey from '../../components/ReusableComponents/ButtonRey'
-import Resume from "../../assets/ReshmaResume.pdf"
+//import Resume from "../../assets/ReshmaResume.pdf"
 import { Container} from "react-bootstrap";
-import {HomeBackground,WelcomeStyle, TitleStyle,JobTitleStyle,AboutStyle,ResumeButton, StickyEmailStyle} from "../../styles/viewsStyle/HomeStyle.js"
+import {HomeBackground,WelcomeStyle, TitleStyle,JobTitleStyle,AboutStyle,ResumeButton} from "../../styles/viewsStyle/HomeStyle.js"
 
 const Home = () => {
 

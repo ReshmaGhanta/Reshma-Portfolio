@@ -1,7 +1,7 @@
-import React,{useState, useEffect} from 'react'
+import React from 'react'
 import TextRey from '../ReusableComponents/TextRey'
 
-import { verticalText,verticalTextFixed } from '../../styles/ComponentsStyle/StickyemailStyle';
+import { verticalText } from '../../styles/ComponentsStyle/StickyemailStyle';
 
 //console.log(verticalText)
 const StickyEmail = () => {

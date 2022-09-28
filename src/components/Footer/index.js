@@ -1,9 +1,8 @@
 import React from 'react'
-import { Container } from "react-bootstrap";
 import TextRey from '../ReusableComponents/TextRey'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faFacebook,faGithub,faInstagram,faLinkedin} from "@fortawesome/free-brands-svg-icons"
-import {FooterBackground,FullnameStyle,SocialmediaStyle,LineStyle,CopyrightStyle}  from "../../styles/ComponentsStyle/FooterStyle"
+import {SocialmediaStyle,LineStyle,CopyrightStyle}  from "../../styles/ComponentsStyle/FooterStyle"
 
 
 const Footer = () => {

@@ -1,4 +1,4 @@
-import HomeBG from '../../assets/background_image.jpg';
+
 
 export const NavbarContainer = {
     display: "flex",
@@ -17,7 +17,7 @@ export const Navbar={
     fontSize:"1.2rem",
     position:"sticky",
     top:"0",
-    zIndex:"999"
+    // zIndex:"999"
   //  backgroundColor:"black",
 }
 
@@ -39,7 +39,7 @@ export const Nav={
     alignItems:"center",
     justifyContent:"end",
     paddingTop:"40px",
-    paddingRight:"12%" 
+   
 }
 
 export const ListStyle={
@@ -60,9 +60,6 @@ export const MenuItemFixed={
 }
 
 export const logoStyle = {
-    width: "50px",
     height: "50px",
-    padding:"0px 0px 0px 100px",
-    color:"black",
-    zIndex:"999"
+    // paddingLeft:"25%",
   };

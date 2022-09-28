@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Container } from 'react-bootstrap';
 import {BrowserRouter as Router} from "react-router-dom";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { useState } from 'react';
@@ -24,7 +25,8 @@ useEffect(()=>{
 
     return (
        <Router>
-       <div style={fixNavbar ? NavbarFixed : Navbar }>
+       
+       <Container fluid style={fixNavbar ? NavbarFixed : Navbar }>
         <div> <ImageRey data={{ source: logo, avatar: "Avatar", customStyle:logoStyle}}></ImageRey> </div>
         <div style={NavbarContainer}>
         <nav style={Nav}> 
@@ -37,7 +39,8 @@ useEffect(()=>{
         </ul>
         </nav>
         </div>
-        </div>
+       
+        </Container>
        </Router>
     )
 }

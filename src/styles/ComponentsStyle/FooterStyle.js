@@ -1,24 +1,5 @@
 
-
-export const FooterBackground = {
-    width: "100%",
-    height: "100%",
-    paddingTop:"10%",
-    margin:"0"
-  }
-
-  export const FullnameStyle = {
-    color: "black",
-    fontSize: "3em",
-    letterSpacing: "2px",
-    display:"flex",
-    alignItems:"center",
-    justifyContent:"center",
-    paddingTop:"10px",
-    margin:"30px 0px 0px 0px"
-  }
   export const SocialmediaStyle={
-   // color:"white",
     display:"flex",
     alignItems:"center",
     justifyContent:"center", 
