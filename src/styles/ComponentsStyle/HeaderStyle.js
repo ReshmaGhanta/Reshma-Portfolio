@@ -17,8 +17,9 @@ export const Navbar={
     fontSize:"1.2rem",
     position:"sticky",
     top:"0",
-    // zIndex:"999"
-  //  backgroundColor:"black",
+    paddingLeft: '150px', 
+    paddingRight: '150px',
+    paddingTop: '50px'
 }
 
 export const NavbarFixed={
@@ -31,7 +32,10 @@ export const NavbarFixed={
     position:"sticky",
     top:"0",
     backgroundColor: "#fff",
-    zIndex:"999"
+    zIndex:"999",
+    paddingLeft: '150px', 
+    paddingRight: '150px',
+   
 }
 
 export const Nav={
@@ -46,7 +50,7 @@ export const ListStyle={
     listStyleType:"none",
     display:"inline-block",
     padding: "10px 20px",
-    fontWeight:"bold",
+   // fontWeight:"bold",
 }
 
 export const MenuItem={

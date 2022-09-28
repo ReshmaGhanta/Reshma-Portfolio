@@ -10,7 +10,7 @@ export const MenuItemStyle={
     justifyContent:"center",
     fontSize:"3em",
     paddingBottom:"5%",
-    paddingTop:"8%",
+    paddingTop:"10%",
 
 }
 
@@ -33,7 +33,7 @@ export const CertificationStyle={
 }
 
 export const CarouselNameStyle={
-    fontSize:"50px",
+    fontSize:"30px",
     margin: "0",
 	color:"#666666",
 }
@@ -41,7 +41,7 @@ export const CarouselNameStyle={
 export const CarouselImageStyle={
     height: "100px",
     paddingRight: "20px",
-    paddingLeft: "20px"
+    //paddingLeft: "20px"
  }
 
  /* export const CarouselStyle={
