@@ -1,0 +1,13 @@
+
+.btn {
+    background-color: transparent;
+    border: 1px solid brown;
+    border-radius: 50px;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+    color: brown;
+  }
+  .btn:hover {
+    box-shadow: 0 0 10px 0 brown inset, 0 0 20px 2px brown;
+    border: 1px solid brown;
+  }

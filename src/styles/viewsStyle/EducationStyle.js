@@ -1,7 +1,7 @@
 export const EducationBackground={
     width: "100%",
     height: "100vh",
-    paddingTop:"3%"
+    paddingTop:"5%"
 }
 
 export const MenuItemStyle={
@@ -11,7 +11,7 @@ export const MenuItemStyle={
     justifyContent:"center",
     fontSize:"3em",
     marginBottom:"50px",
-    paddingTop:"6%"
+    paddingTop:"4%"
 }
 
 export const MasonLogoStyle={

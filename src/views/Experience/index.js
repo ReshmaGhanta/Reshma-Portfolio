@@ -19,10 +19,11 @@ const Experience = () => {
             <TextRey data={{text:"Lucrative Innovations Inc",style:CompanyStyle}}></TextRey>             
              <TextRey data={{text:"E911Live - 1st2911",style:ProjectStyle}}></TextRey>             
              <ul style={DescriptionStyle}>
-                  <li>   Created a responsive landing page. </li>
-                  <li> Optimized the landing page for SEO. </li>
-                  <li> Optimized the videos on the landing page to work on all types of devices and browsers.</li>
-                  <li> Created a React Dashboard for our B2B SaaS product.</li>
+                  <li> Responsible for developing a full-stack application using HTML, CSS, JavaScript, React JS, Express JS , Node.js and Firebase. </li>
+                  <li> Fetched the Amazon kinesis video streams from the back-end and displayed them in the front end for the end user. </li>
+                  <li> Used Google Maps API to custom build a mapping system. Used Firebase database to store and fetch real-time data.</li>
+                  <li> Responsible for architecting, designing and developing the critical components of the application, while participating in the entire Software Development Life Cycle using Agile methodology.</li>
+                  <li>Worked with JIRA  the bug tracking system to track and maintain the history of issues on a daily basis. Extensively used GIT for version controlling.</li>
               </ul>
               </div>
         </Col> 
@@ -36,10 +37,9 @@ const Experience = () => {
             <TextRey data={{text:"Toastmasters International",style:CompanyStyle}}></TextRey>             
              <TextRey data={{text:"Communicators at IUPUI",style:ProjectStyle}}></TextRey>             
              <ul style={DescriptionStyle}>
-                  <li>   Created a responsive landing page. </li>
-                  <li> Optimized the landing page for SEO. </li>
-                  <li> Optimized the videos on the landing page to work on all types of devices and browsers.</li>
-                  <li> Created a React Dashboard for our B2B SaaS product.</li>
+                  <li>  Reviewed and evaluated club's previous PR efforts, current objectives and tactics to reach goals. </li>
+                  <li> Communicated Toastmasters’ key messages when writing news releases and while speaking to members, potential members and journalists. </li>
+                  <li>Published weekly postcards about meetings on Social media sites to attract and connect with fellow members and external audience. </li>
               </ul>
 
         </Col> 
@@ -54,10 +54,8 @@ const Experience = () => {
               <TextRey data={{text:"Communicators at IUPUI",style:ProjectStyle}}></TextRey>             
                      
              <ul style={DescriptionStyle}>
-                  <li>   Created a responsive landing page. </li>
-                  <li> Optimized the landing page for SEO. </li>
-                  <li> Optimized the videos on the landing page to work on all types of devices and browsers.</li>
-                  <li> Created a React Dashboard for our B2B SaaS product.</li>
+                  <li>  Helped anyone with computer difficulties when they needed it.</li>
+                  <li> Made sure that the President and Toastmaster of the Day know the names of the guests and be ready to remind them to make introduction.</li>
               </ul>
         </Col> 
        </Row> 
@@ -71,10 +69,9 @@ const Experience = () => {
               <TextRey data={{text:"IST Department",style:ProjectStyle}}></TextRey>             
                      
              <ul style={DescriptionStyle}>
-                  <li>   Created a responsive landing page. </li>
-                  <li> Optimized the landing page for SEO. </li>
-                  <li> Optimized the videos on the landing page to work on all types of devices and browsers.</li>
-                  <li> Created a React Dashboard for our B2B SaaS product.</li>
+                  <li>  Responsible for instructing a class of 60 students on How to solve problems using computer programming in Java.  </li>
+                  <li> Checked assignments, proctored exams, and provided grades according to the university standards.</li>
+                  <li> Held weekly office hours to provide tutoring, counseling or assistance to the students.</li>
               </ul>
         </Col> 
        </Row> 
@@ -88,10 +85,9 @@ const Experience = () => {
               <TextRey data={{text:"Hyderabad",style:ProjectStyle}}></TextRey>             
                      
              <ul style={DescriptionStyle}>
-                  <li>   Created a responsive landing page. </li>
-                  <li> Optimized the landing page for SEO. </li>
-                  <li> Optimized the videos on the landing page to work on all types of devices and browsers.</li>
-                  <li> Created a React Dashboard for our B2B SaaS product.</li>
+                  <li> Developed Intranet mailing project using Java programming language.  </li>
+                  <li> Used JSP, HTML, CSS, Bootstrap on front end, servlets as front controllers and JavaScript for client side validations.Learned software engineering process improvements and best practices. </li>
+                  <li> Contributed to deployments by testing, debugging and resolving issues for optimal results.</li>
               </ul>
         </Col> 
        </Row> 

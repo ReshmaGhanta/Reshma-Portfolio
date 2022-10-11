@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import '../../styles/viewsStyle/Button.css'
 
 const ButtonRey = (props) => {
     const {label,onClick,customStyle}=props.data;
     return (
-      <button onClick={onClick} style={customStyle}>
+      <button className='btn' onClick={onClick} style={customStyle}>
         {label}
       </button>
     );

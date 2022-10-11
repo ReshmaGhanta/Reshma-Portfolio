@@ -13,7 +13,7 @@ export const MenuItemStyle={
     justifyContent:"center",
     fontSize:"3em",
     marginBottom:"20px",
-    paddingTop:"10%"
+    paddingTop:"12%"
 }
 
 export const TextStyle={

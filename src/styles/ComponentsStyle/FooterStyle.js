@@ -24,4 +24,5 @@
     display:"flex",
     alignItems:"center",
     justifyContent:"center",
+    paddingBottom:"2%"
   }

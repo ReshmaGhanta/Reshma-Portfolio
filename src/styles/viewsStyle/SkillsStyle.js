@@ -19,7 +19,7 @@ export const SubMenuItemStyle={
     color: "black",
     alignItems:"center",
     justifyContent:"center",
-    fontSize:"2em",
+    fontSize:"3em",
     paddingTop:"5%" 
 }
 
@@ -39,9 +39,9 @@ export const CarouselNameStyle={
 }
 
 export const CarouselImageStyle={
-    height: "100px",
+    height: "120px",
     paddingRight: "20px",
-    //paddingLeft: "20px"
+    paddingLeft: "20px"
  }
 
  /* export const CarouselStyle={

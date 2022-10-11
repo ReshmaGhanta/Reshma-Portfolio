@@ -9,72 +9,66 @@ import logo from "../../assets/Logo.png"
 
 const Skills = () => {
     return (
-        <Container style={SkillBackground} id="skills">
+        <Container  fluid style={SkillBackground} id="skills">
                     <><TextRey data={{text:"Skills",style:MenuItemStyle}}></TextRey></>
- 
-{/* <div style={MovingStyle}>
-<div style={CarouselStyle} >
-    <div>
-        <ImageRey data={{ source: logo, avatar: "Avatar", customStyle:CarouselImageStyle}}></ImageRey> 
-        <TextRey data={{text:"Amazon 1",style:CarouselNameStyle}}></TextRey>
-    </div>
-</div>
-<div style={CarouselStyle} >
-    <div>
-        <ImageRey data={{ source: logo, avatar: "Avatar", customStyle:CarouselImageStyle}}></ImageRey> 
-        <TextRey data={{text:"Amazon 1",style:CarouselNameStyle}}></TextRey>
-    </div>
-</div>
-<div style={CarouselStyle} >
-    <div>
-        <ImageRey data={{ source: logo, avatar: "Avatar", customStyle:CarouselImageStyle}}></ImageRey> 
-        <TextRey data={{text:"Amazon 1",style:CarouselNameStyle}}></TextRey>
-    </div>
-</div>
-</div> */}
-
 <div class="slider">
 <div class="slide-track">
 <div class="slide">
 <ImageRey data={{ source: logo, avatar: "Avatar", customStyle:CarouselImageStyle}}></ImageRey> 
-<TextRey data={{text:"Amazon 1",style:CarouselNameStyle}}></TextRey>
+<TextRey data={{text:"Html 5",style:CarouselNameStyle}}></TextRey>
 </div>
 <div class="slide">
 <ImageRey data={{ source: logo, avatar: "Avatar", customStyle:CarouselImageStyle}}></ImageRey> 
-<TextRey data={{text:"Amazon 2",style:CarouselNameStyle}}></TextRey>
+<TextRey data={{text:"Css 3",style:CarouselNameStyle}}></TextRey>
 </div>
 <div class="slide">
 <ImageRey data={{ source: logo, avatar: "Avatar", customStyle:CarouselImageStyle}}></ImageRey> 
-<TextRey data={{text:"Amazon 3",style:CarouselNameStyle}}></TextRey>
+<TextRey data={{text:"Bootstrap",style:CarouselNameStyle}}></TextRey>
 </div>
 <div class="slide">
 <ImageRey data={{ source: logo, avatar: "Avatar", customStyle:CarouselImageStyle}}></ImageRey> 
-<TextRey data={{text:"Amazon 4",style:CarouselNameStyle}}></TextRey>
+<TextRey data={{text:"Express JS",style:CarouselNameStyle}}></TextRey>
 </div>
 <div class="slide">
 <ImageRey data={{ source: logo, avatar: "Avatar", customStyle:CarouselImageStyle}}></ImageRey> 
-<TextRey data={{text:"Amazon 5",style:CarouselNameStyle}}></TextRey>
+<TextRey data={{text:"Firebase",style:CarouselNameStyle}}></TextRey>
 </div>
 <div class="slide">
 <ImageRey data={{ source: logo, avatar: "Avatar", customStyle:CarouselImageStyle}}></ImageRey> 
-<TextRey data={{text:"Amazon 6",style:CarouselNameStyle}}></TextRey>
+<TextRey data={{text:"Java",style:CarouselNameStyle}}></TextRey>
 </div>
 <div class="slide">
 <ImageRey data={{ source: logo, avatar: "Avatar", customStyle:CarouselImageStyle}}></ImageRey> 
-<TextRey data={{text:"Amazon 7",style:CarouselNameStyle}}></TextRey>
+<TextRey data={{text:"jQuery",style:CarouselNameStyle}}></TextRey>
 </div>
 <div class="slide">
 <ImageRey data={{ source: logo, avatar: "Avatar", customStyle:CarouselImageStyle}}></ImageRey> 
-<TextRey data={{text:"Amazon 8",style:CarouselNameStyle}}></TextRey>
+<TextRey data={{text:"Javascript",style:CarouselNameStyle}}></TextRey>
 </div>
 <div class="slide">
 <ImageRey data={{ source: logo, avatar: "Avatar", customStyle:CarouselImageStyle}}></ImageRey> 
-<TextRey data={{text:"Amazon 9",style:CarouselNameStyle}}></TextRey>
-</div>
-<div class="slide">
-<ImageRey data={{ source: logo, avatar: "Avatar", customStyle:CarouselImageStyle}}></ImageRey> 
-<TextRey data={{text:"Amazon 10",style:CarouselNameStyle}}></TextRey>
+<TextRey data={{text:"Node JS",style:CarouselNameStyle}}></TextRey>
 </div> 
+<div class="slide">
+<ImageRey data={{ source: logo, avatar: "Avatar", customStyle:CarouselImageStyle}}></ImageRey> 
+<TextRey data={{text:"NPM",style:CarouselNameStyle}}></TextRey>
+</div> 
+<div class="slide">
+<ImageRey data={{ source: logo, avatar: "Avatar", customStyle:CarouselImageStyle}}></ImageRey> 
+<TextRey data={{text:"Oracle",style:CarouselNameStyle}}></TextRey>
+</div> 
+<div class="slide">
+<ImageRey data={{ source: logo, avatar: "Avatar", customStyle:CarouselImageStyle}}></ImageRey> 
+<TextRey data={{text:"React JS",style:CarouselNameStyle}}></TextRey>
+</div> 
+<div class="slide">
+<ImageRey data={{ source: logo, avatar: "Avatar", customStyle:CarouselImageStyle}}></ImageRey> 
+<TextRey data={{text:"Socket.io",style:CarouselNameStyle}}></TextRey>
+</div> 
+<div class="slide">
+<ImageRey data={{ source: logo, avatar: "Avatar", customStyle:CarouselImageStyle}}></ImageRey> 
+<TextRey data={{text:"Html 5",style:CarouselNameStyle}}></TextRey>
+</div>
 </div>
 </div>
             <><TextRey data={{text:"Certifications",style:SubMenuItemStyle}}></TextRey></>
