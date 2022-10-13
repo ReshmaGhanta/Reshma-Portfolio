@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Reshma-Portfolio/precache-manifest.b72fbbd9a7e0fa197749ddb5919af657.js"
+  "/Reshma-Portfolio/precache-manifest.01d9a931c8a3c9998c33cb45c3a352b8.js"
 );
 
 workbox.clientsClaim();
