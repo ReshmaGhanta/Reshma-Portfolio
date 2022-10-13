@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "75e923e2efee93d862e5",
-    "url": "/Reshma-Portfolio/static/css/main.c8a45538.chunk.css"
+    "revision": "5403400e4fb2e5e0aa06",
+    "url": "/Reshma-Portfolio/static/css/main.53424231.chunk.css"
   },
   {
-    "revision": "75e923e2efee93d862e5",
-    "url": "/Reshma-Portfolio/static/js/main.b157c71a.chunk.js"
+    "revision": "5403400e4fb2e5e0aa06",
+    "url": "/Reshma-Portfolio/static/js/main.aa225a67.chunk.js"
   },
   {
     "revision": "6e99421db894119b069b",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/Reshma-Portfolio/static/media/Yellow-Logo.b1522f84.png"
   },
   {
-    "revision": "e464a89146690efd232bcf4e996df85e",
+    "revision": "e1a4cb71e28cbabdd6f4be1bf8bd79b5",
     "url": "/Reshma-Portfolio/index.html"
   }
 ];
