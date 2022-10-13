@@ -6,7 +6,7 @@ export const EducationBackground={
 
 export const MenuItemStyle={
     display:"flex",
-    color: "black",
+    color:"#506A98",
     alignItems:"center",
     justifyContent:"center",
     fontSize:"3em",
@@ -32,6 +32,7 @@ export const YearStyle={
   padding:"0px",
   margin:"0px",
   display:"flex",
+  color: "#9195b8",
 }
 
 export const DegreeStyle={
@@ -40,12 +41,14 @@ export const DegreeStyle={
     fontSize: "1.5em",
     fontWeight:"bold",
     display:"flex",
+    color: "#9195b8",
 }
 
 export const UniversityStyle={
     display:"flex",
     fontSize: "1.2em",
     fontWeight:"500",
+    color: "#9195b8",
 }
 
 export const rowStyle={
@@ -60,5 +63,6 @@ export const colStyle={
 
 export const DescriptionStyle={
     fontSize:"0.9em",
-    lineHeight:"2"
+    lineHeight:"2",
+    fontFamily:"Montserrat",
 }

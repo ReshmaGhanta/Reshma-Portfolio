@@ -5,6 +5,10 @@ import ImageRey from '../../components/ReusableComponents/ImageRey';
 import { SkillBackground,MenuItemStyle,SubMenuItemStyle,CertificationStyle, CarouselNameStyle, CarouselImageStyle} from '../../styles/viewsStyle/SkillsStyle';
 import "../../styles/viewsStyle/Carousel.css"
 import logo from "../../assets/Logo.png"
+import firebase from "../../assets/firebase.png"
+import java from "../../assets/java.png"
+import nodejs from "../../assets/nodejs.png"
+
 
 
 const Skills = () => {
@@ -30,11 +34,11 @@ const Skills = () => {
 <TextRey data={{text:"Express JS",style:CarouselNameStyle}}></TextRey>
 </div>
 <div class="slide">
-<ImageRey data={{ source: logo, avatar: "Avatar", customStyle:CarouselImageStyle}}></ImageRey> 
+<ImageRey data={{ source: firebase, avatar: "Avatar", customStyle:CarouselImageStyle}}></ImageRey> 
 <TextRey data={{text:"Firebase",style:CarouselNameStyle}}></TextRey>
 </div>
 <div class="slide">
-<ImageRey data={{ source: logo, avatar: "Avatar", customStyle:CarouselImageStyle}}></ImageRey> 
+<ImageRey data={{ source: java, avatar: "Avatar", customStyle:CarouselImageStyle}}></ImageRey> 
 <TextRey data={{text:"Java",style:CarouselNameStyle}}></TextRey>
 </div>
 <div class="slide">
@@ -46,7 +50,7 @@ const Skills = () => {
 <TextRey data={{text:"Javascript",style:CarouselNameStyle}}></TextRey>
 </div>
 <div class="slide">
-<ImageRey data={{ source: logo, avatar: "Avatar", customStyle:CarouselImageStyle}}></ImageRey> 
+<ImageRey data={{ source: nodejs, avatar: "Avatar", customStyle:CarouselImageStyle}}></ImageRey> 
 <TextRey data={{text:"Node JS",style:CarouselNameStyle}}></TextRey>
 </div> 
 <div class="slide">

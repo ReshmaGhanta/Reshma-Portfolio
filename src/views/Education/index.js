@@ -4,7 +4,7 @@ import TextRey from "../../components/ReusableComponents/TextRey"
 import ImageRey from "../../components/ReusableComponents/ImageRey"
 import { EducationBackground,MenuItemStyle, MasonLogoStyle , PVPLogoStyle , YearStyle,DegreeStyle,UniversityStyle, rowStyle, colStyle,DescriptionStyle} from '../../styles/viewsStyle/EducationStyle';
 import MasonLogo from "../../assets/MasonLogo.png"
-import PvPLogo from "../../assets/PvpLogo.png"
+import PvPLogo from "../../assets/PvpsitLogo.png"
 
 const Education = () => {
     return (
