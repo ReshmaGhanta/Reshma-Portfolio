@@ -27,7 +27,8 @@ useEffect(()=>{
        <Router>
        
        <Container fluid style={fixNavbar ? NavbarFixed : Navbar }>
-        <div> <ImageRey data={{ source: logo, avatar: "Avatar", customStyle:logoStyle}}></ImageRey> </div>
+        <div> <AnchorLink href='#home' style={fixNavbar ? MenuItemFixed : MenuItem}>
+            <ImageRey  data={{ source: logo, avatar: "Avatar", customStyle:logoStyle}}></ImageRey> </AnchorLink>   </div>
         <div style={NavbarContainer}>
         <nav style={Nav}> 
         <ul>
