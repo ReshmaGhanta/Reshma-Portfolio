@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "2bdbaa78e7df8f249d9f",
+    "revision": "070e2d0d3a709698aa34",
     "url": "/Reshma-Portfolio/static/css/main.05edd78d.chunk.css"
   },
   {
-    "revision": "2bdbaa78e7df8f249d9f",
-    "url": "/Reshma-Portfolio/static/js/main.ce4dd6dc.chunk.js"
+    "revision": "070e2d0d3a709698aa34",
+    "url": "/Reshma-Portfolio/static/js/main.dbcd8e7b.chunk.js"
   },
   {
     "revision": "6e99421db894119b069b",
     "url": "/Reshma-Portfolio/static/js/runtime~main.701ce47c.js"
   },
   {
-    "revision": "30e44bd9b8e9a434db4c",
-    "url": "/Reshma-Portfolio/static/js/2.69fdff01.chunk.js"
+    "revision": "0d72556103be4ec7b315",
+    "url": "/Reshma-Portfolio/static/js/2.8eb8a55b.chunk.js"
   },
   {
     "revision": "22f83cfd5c3ae79b2ff732911c75d946",
@@ -68,7 +68,7 @@ self.__precacheManifest = [
     "url": "/Reshma-Portfolio/static/media/Logo.91a2e891.png"
   },
   {
-    "revision": "8b1d602a1444fd632ae43a5d640c9712",
+    "revision": "e391377a5410df0882ecfb233bc6a355",
     "url": "/Reshma-Portfolio/index.html"
   }
 ];
