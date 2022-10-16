@@ -51,20 +51,18 @@ export const ListStyle={
     listStyleType:"none",
     display:"inline-block",
     padding: "10px 20px",
-   // fontWeight:"bold",
 }
 
 export const MenuItem={
     textDecoration:"none",
-    color: "#c8b7be",
+    color:"#e2cfd7",
 }
 
 export const MenuItemFixed={
     textDecoration:"none", 
-    color: "#c8b7be",
+    color:"#e2cfd7",
 }
 
 export const logoStyle = {
     height: "50px",
-    // paddingLeft:"25%",
   };

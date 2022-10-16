@@ -6,12 +6,12 @@ export const EducationBackground={
 
 export const MenuItemStyle={
     display:"flex",
-    color:"#506A98",
+    color:"#5d88d1",
     alignItems:"center",
     justifyContent:"center",
     fontSize:"3em",
-    marginBottom:"50px",
-    paddingTop:"4%"
+    marginBottom:"30px",
+    paddingTop:"3%"
 }
 
 export const MasonLogoStyle={
@@ -32,7 +32,7 @@ export const YearStyle={
   padding:"0px",
   margin:"0px",
   display:"flex",
-  color: "#9195b8",
+  color: "#B5B9E4",
 }
 
 export const DegreeStyle={
@@ -41,14 +41,14 @@ export const DegreeStyle={
     fontSize: "1.5em",
     fontWeight:"bold",
     display:"flex",
-    color: "#9195b8",
+    color: "#B5B9E4",
 }
 
 export const UniversityStyle={
     display:"flex",
     fontSize: "1.2em",
     fontWeight:"500",
-    color: "#9195b8",
+    color: "#B5B9E4",
 }
 
 export const rowStyle={
@@ -62,7 +62,7 @@ export const colStyle={
 }
 
 export const DescriptionStyle={
-    fontSize:"0.9em",
+    fontSize:"1em",
     lineHeight:"2",
     fontFamily:"Montserrat",
 }

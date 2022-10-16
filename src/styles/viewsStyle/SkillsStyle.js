@@ -5,7 +5,7 @@ export const SkillBackground={
 
 export const MenuItemStyle={
     display:"flex",
-    color:"#506A98",
+    color:"#5d88d1",
     alignItems:"center",
     justifyContent:"center",
     fontSize:"3em",
@@ -16,7 +16,7 @@ export const MenuItemStyle={
 
 export const SubMenuItemStyle={
     display:"flex", 
-    color:"#506A98",
+    color:"#5d88d1",
     alignItems:"center",
     justifyContent:"center",
     fontSize:"3em",
@@ -25,7 +25,7 @@ export const SubMenuItemStyle={
 
 export const CertificationStyle={
     display:"flex",
-    color:"#c8b7be ",
+    color:"#e2cfd7",
     alignItems:"center",
     justifyContent:"center",
     fontSize:"1.2em",
@@ -35,8 +35,8 @@ export const CertificationStyle={
 
 export const CarouselNameStyle={
     fontSize:"30px",
-    margin: "0",
-    color: "#9195b8",
+    marginLeft: "15%", 
+    color: "#B5B9E4",
     fontFamily:"Montserrat",
 }
 
@@ -45,15 +45,3 @@ export const CarouselImageStyle={
     paddingRight: "20px",
     paddingLeft: "20px"
  }
-
- /* export const CarouselStyle={
-    float:"left",
-    width:"10%"
- }
-
- export const MovingStyle={
-    width: "7340px",
-    transition: "all 200ms ease-out 0s",
-     transform: "translate3d(-1468px, 0px, 0px)"
- }
- */

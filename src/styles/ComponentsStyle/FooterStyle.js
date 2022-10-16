@@ -1,13 +1,13 @@
 
-  export const SocialmediaStyle={
+   export const SocialmediaStyle={
     display:"flex",
     alignItems:"center",
     justifyContent:"center", 
     verticalAlign:"middle",
     margin:"0",
     cursor: "pointer",
-    color: "#9195b8",
-  }
+   // color: "#B5B9E4",
+  } 
 
  export const LineStyle={
     position: "relative",
@@ -15,16 +15,15 @@
     border: "none",
     height: "0.25px",
     width: "75%",
-    background: "#9195b8",
+    background: "#B5B9E4",
     marginBottom: "30px",
  }
 
   export const CopyrightStyle={
-    color: "#9195b8",
+    color: "#B5B9E4",
     fontSize: "1em",
     display:"flex",
     alignItems:"center",
     justifyContent:"center",
     paddingBottom:"2%",
-    fontFamily:"Montserrat",
   }

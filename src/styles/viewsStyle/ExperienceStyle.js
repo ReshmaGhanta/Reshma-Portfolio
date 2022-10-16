@@ -6,9 +6,7 @@ export const ExperienceBackground={
 }
 export const MenuItemStyle={
     display:"flex",
-   // color: "#c8b7be",
-   // color: "#9195b8",
-    color:"#506A98",
+    color:"#5d88d1",
     alignItems:"center",
     justifyContent:"center",
     fontSize:"3em",
@@ -21,8 +19,7 @@ export const JobTitleStyle={
     margin:"0",
     fontSize: "1.2em",
     fontWeight:"600",
-  // color:"#506A98",
-   color: "#9195b8",
+   color: "#B5B9E4",
 }
 
 export const TenureStyle={
@@ -30,25 +27,21 @@ export const TenureStyle={
     margin:"0",
     fontSize: "1.2em",
     fontWeight:"500",
-  //  color:"#506A98",
-    color: "#9195b8",
+    color: "#B5B9E4",
 }
 
 export const rowStyle={
-   
     paddingTop:"2%"
 }
 
 export const colOneStyle={
     textAlign:"right",
     paddingRight:"50px",
-   // color:"#368Bc1"
 }
 
 export const colTwoStyle={
      borderLeft:"0.5px solid gray",
      paddingLeft:"50px",
-    // color: "#368Bc1"
 }
 
 export const CompanyStyle={
@@ -56,8 +49,7 @@ export const CompanyStyle={
     margin:"0",
     fontSize: "1.2em",
     fontWeight:"600",
-   // color:"#506A98",
-    color: "#9195b8",
+    color: "#B5B9E4",
 }
 
 export const ProjectStyle={
@@ -65,8 +57,7 @@ export const ProjectStyle={
     margin:"0",
     fontSize: "1.2em",
     fontWeight:"500",
-  //  color:"#506A98",
-    color: "#9195b8",
+    color: "#B5B9E4",
 
 }
 

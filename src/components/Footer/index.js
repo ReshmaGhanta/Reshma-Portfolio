@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import TextRey from '../ReusableComponents/TextRey'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faFacebook,faGithub,faInstagram,faLinkedin} from "@fortawesome/free-brands-svg-icons"
@@ -6,14 +6,28 @@ import {SocialmediaStyle,LineStyle,CopyrightStyle}  from "../../styles/Component
 
 
 const Footer = () => {
+    const [isHover, setIsHover] = useState(false);
+
+    const  handleonPointerOver = () => {
+       setIsHover(true);
+    };
+ 
+    const handleonPointerOut = () => {
+       setIsHover(false);
+    };
+
+    const mediaStyle={
+        color: isHover? "#e2cfd7" : "#B5B9E4",
+      }
+
     return (
         <>
            {/*  <><TextRey data={{text:"Reshma Ghanta",style:FullnameStyle}}></TextRey></> */}
-            <div style={SocialmediaStyle}>
-                <FontAwesomeIcon icon={faFacebook} size="3x" fixedWidth onClick={openFacebook}></FontAwesomeIcon>
-                <FontAwesomeIcon icon={faGithub} size="3x" fixedWidth onClick={openGithub}></FontAwesomeIcon>
-                <FontAwesomeIcon icon={faInstagram} size="3x" fixedWidth onClick={openInstagram}></FontAwesomeIcon>
-                <FontAwesomeIcon icon={faLinkedin} size="3x" fixedWidth onClick={openLinkedin}></FontAwesomeIcon>
+            <div style={SocialmediaStyle} >
+                <FontAwesomeIcon icon={faFacebook} size="3x" fixedWidth style={mediaStyle}  onPointerOver={handleonPointerOver} onPointerOut={handleonPointerOut} onClick={openFacebook}></FontAwesomeIcon>
+                <FontAwesomeIcon icon={faGithub} size="3x" fixedWidth style={mediaStyle}  onPointerOver={handleonPointerOver} onPointerOut={handleonPointerOut}  onClick={openGithub}></FontAwesomeIcon>
+                <FontAwesomeIcon icon={faInstagram} size="3x" fixedWidth style={mediaStyle}  onPointerOver={handleonPointerOver} onPointerOut={handleonPointerOut} onClick={openInstagram}></FontAwesomeIcon>
+                <FontAwesomeIcon icon={faLinkedin} size="3x" fixedWidth style={mediaStyle}  onPointerOver={handleonPointerOver} onPointerOut={handleonPointerOut} onClick={openLinkedin}></FontAwesomeIcon>
             </div>
             <> <hr style={LineStyle}/>  </>  
             <><TextRey data={{text:"Designed & Built by Reshma Ghanta Ⓒ 2022",style:CopyrightStyle}}></TextRey></>       

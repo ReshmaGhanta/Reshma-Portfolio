@@ -1,16 +1,8 @@
  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600&display=swap'); 
  @import url('https://fonts.googleapis.com/css2?family=Esteban&display=swap');
 body{
-   /*  font-family: 'Montserrat', sans-serif; */
     font-family: 'Esteban', serif;
-   /*  background-color: #0E3A65; */
-  /*   background-color:#002E5B;  */
-  background-color:#0a192f;
-  
-  /* #0a192f; */
-   /* background-color: #002951; */
-     color:#c8b7be 
-  /*   color: #9195b8; */
-   /* // color: #B4c69C; Montserrat*/
+    background-color:#0a192f;
+     color:#e2cfd7;
 }
 

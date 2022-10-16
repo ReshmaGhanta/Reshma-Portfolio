@@ -17,7 +17,7 @@ const Home = () => {
                     <><TextRey data={{text:"Full Stack Developer",style:JobTitleStyle}}></TextRey></>
                    
                     <><TextRey data={{text:"I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Experienced in building intuitive and interactive progressive full stack applications.",style:AboutStyle}}></TextRey> </>
-                    <><ButtonRey data={{label:"Resume",customStyle:ResumeButton ,onClick:openResume}}></ButtonRey> </>
+                    <><ButtonRey data={{label:"Resume",customStyle:ResumeButton,onClick:openResume}}></ButtonRey> </>
                  
                   
         </Container>

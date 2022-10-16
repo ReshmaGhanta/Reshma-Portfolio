@@ -5,7 +5,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import { useState } from 'react';
 import { NavbarContainer, NavbarFixed, Navbar, Nav,logoStyle, ListStyle, MenuItem, MenuItemFixed} from '../../styles/ComponentsStyle/HeaderStyle';
 import ImageRey from '../ReusableComponents/ImageRey';
-import logo from "../../assets/Yellow-Logo.png";
+import logo from "../../assets/Logo.png";
 
 const Header = () => {
 const[fixNavbar,setFixNavbar]=useState(false)
