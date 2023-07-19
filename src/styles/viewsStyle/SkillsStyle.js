@@ -9,8 +9,8 @@ export const MenuItemStyle={
     alignItems:"center",
     justifyContent:"center",
     fontSize:"3em",
-    paddingBottom:"5%",
-    paddingTop:"10%",
+    paddingBottom:"3%",
+    paddingTop:"8%",
 
 }
 
@@ -35,13 +35,59 @@ export const CertificationStyle={
 
 export const CarouselNameStyle={
     fontSize:"30px",
-    marginLeft: "15%", 
+   // marginLeft: "20%", 
     color: "#B5B9E4",
     fontFamily:"Montserrat",
+   /*  marginLeft: "auto",
+    marginRight: "auto" */
 }
 
 export const CarouselImageStyle={
-    height: "120px",
-    paddingRight: "20px",
-    paddingLeft: "20px"
+     height: "120px",     
+    /* paddingRight: "20px",
+    paddingLeft: "20px" */
+   /*  marginLeft: "auto",
+    marginRight: "auto" */
+ }
+
+ export const JavaNameStyle={
+    fontSize:"30px",
+     marginLeft: "12%", 
+     color: "#B5B9E4",
+     fontFamily:"Montserrat",
+ }
+
+ export const NpmNameStyle={
+    fontSize:"30px",
+    marginLeft: "10%", 
+    color: "#B5B9E4",
+    fontFamily:"Montserrat",
+ }
+
+ export const OracleNameStyle={
+    fontSize:"30px",
+    marginLeft: "5%", 
+    color: "#B5B9E4",
+    fontFamily:"Montserrat",
+ }
+
+ export const CssNameStyle={
+    fontSize:"30px",
+    marginLeft: "8%", 
+    color: "#B5B9E4",
+    fontFamily:"Montserrat",
+ }
+
+ export const JQNameStyle={
+    fontSize:"30px",
+    marginLeft: "5%", 
+    color: "#B5B9E4",
+    fontFamily:"Montserrat",
+ }
+
+ export const HTMLNameStyle={
+    fontSize:"30px",
+    marginLeft: "5%", 
+    color: "#B5B9E4",
+    fontFamily:"Montserrat",
  }
