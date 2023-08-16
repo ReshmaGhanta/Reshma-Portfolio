@@ -30,7 +30,7 @@ const Footer = () => {
                 <FontAwesomeIcon icon={faLinkedin} size="3x" fixedWidth style={mediaStyle}  onPointerOver={handleonPointerOver} onPointerOut={handleonPointerOut} onClick={openLinkedin}></FontAwesomeIcon>
             </div>
             <> <hr style={LineStyle}/>  </>  
-            <><TextRey data={{text:"Designed & Built by Reshma Ghanta Ⓒ 2022",style:CopyrightStyle}}></TextRey></>       
+            <><TextRey data={{text:"Designed & Built by Reshma Ghanta Ⓒ 2023",style:CopyrightStyle}}></TextRey></>       
         </>
     )
 }
